@@ -115,14 +115,5 @@ draw_flower_udacity()
 
 #draw_name()
 
-import media
-import fresh_tomatoes
 
-saamy = media.Movie("Saamy","This is a Sequel Story","https://upload.wikimedia.org/wikipedia/en/thumb/3/37/Saamy_Square.jpg/220px-Saamy_Square.jpg","https://www.youtube.com/watch?v=GguGXG1PBcs")
-sarkar = media.Movie("Sarkar","This is a political film","https://upload.wikimedia.org/wikipedia/en/7/72/Sarkar_2018_poster.jpg","https://youtu.be/VkkyaodksT4")
-robo2 = media.Movie("2.0","This is a sci-fi film","https://upload.wikimedia.org/wikipedia/en/thumb/c/cf/2.0_film_poster.jpg/220px-2.0_film_poster.jpg","https://youtu.be/jrETX2eDhL8")
-##print(sarkar.Storyline)
-##robo2.show_Trailer()
-movies =[saamy,sarkar,robo2]
-fresh_tomatoes.open_movies_page(movies)
 
